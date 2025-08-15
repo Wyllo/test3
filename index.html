@@ -150,7 +150,7 @@
       return m ? `https://drive.google.com/file/d/${m[1]}/preview` : url;
     }
     function gdriveFolderEmbed(id){
-      return `https://drive.google.com/embeddedfolderview?id=${id}#list`;
+      return `https://drive.google.com/embeddedfolderview?id=${id}#grid`;
     }
 
     // ---------- CONFIG ----------
@@ -183,7 +183,7 @@
 
       /* Externes (peuvent parfois refuser l’embed) */
       'tonguetwister': `<iframe title="Tongue Twisters" src="https://view.genially.com/5ebad408c2ecf10d6a54b018" allowscriptaccess="always" allowfullscreen="true" scrolling="yes"></iframe>`,
-      'traileroftheday': `<iframe title="Trailer of the Day" src="${gdriveFolderEmbed('1-BiVqlbkUv2qAoDzOw33EEbDxBuGiuu3')}" allowfullscreen="true" scrolling="yes"></iframe>`,
+      'traileroftheday': `<iframe title="Trailer of the Day" src="${gdriveFolderEmbed('1It3wgBfTD2fmUEFaflQVl4Km4KW6X8u1')}" allowfullscreen="true" scrolling="yes"></iframe>`,
       'thegrammargame': `<iframe title="Grammar Challenge" src="${gdriveFileToPreview('https://drive.google.com/file/d/1IJGFrF5dE4XwI5t0z6AJT8Y8sVQ2EJX2/view?usp=drive_link')}" allowfullscreen="true" scrolling="yes"></iframe>`
     };
 
@@ -353,6 +353,7 @@
   </script>
 </body>
 </html>
+
 
 
 
